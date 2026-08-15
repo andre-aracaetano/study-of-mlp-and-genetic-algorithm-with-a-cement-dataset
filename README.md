@@ -2,7 +2,7 @@
 
 Pipeline completo de aprendizado de máquina aplicado à engenharia de materiais: treino e comparação de modelos preditivos, interpretabilidade e otimização de composição guiada por modelo.
 
-> Este projeto nasceu como trabalho final da disciplina de Aprendizado de Máquina (CMCC, UFABC), mas foi construído como uma **pipeline genérica**: qualquer dataset tabular de regressão, com um espaço de variáveis contínuas passível de otimização, pode ser encaixado nas mesmas etapas com poucas adaptações.
+> Este projeto nasceu como trabalho final da disciplina de Tópicos Especiais em Inteligência Artificial (CMCC, UFABC), mas foi construído como uma **pipeline genérica**: qualquer dataset tabular de regressão, com um espaço de variáveis contínuas passível de otimização, pode ser encaixado nas mesmas etapas com poucas adaptações.
 
 ## Sobre o projeto
 
@@ -84,7 +84,7 @@ Python · PyTorch · XGBoost · SHAP · scikit-learn · pandas · matplotlib
 ## Autor
 
 André de A. Caetano — Centro de Matemática, Computação e Cognição (CMCC), Universidade Federal do ABC (UFABC)
-Orientação: Ronaldo C. Prati
+Orientação: Prof. Dr. Ronaldo C. Prati
 
 ## Licença
 
