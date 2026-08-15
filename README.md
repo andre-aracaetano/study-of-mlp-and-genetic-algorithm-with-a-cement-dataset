@@ -30,18 +30,17 @@ O ponto central do trabalho não é a originalidade de cada técnica isoladament
 
 A busca livre do GA converge para composições estatisticamente incomuns e fisicamente pouco plausíveis (extrapolação), um problema mais severo quando o modelo avaliador é a MLP do que quando é o XGBoost. Impondo restrições de domínio (limites de material cimentício total e de razão água/material cimentício, derivados do próprio dataset), o GA converge para uma composição muito próxima da melhor mistura real observada.
 
-O relatório completo, com a análise detalhada de cada etapa, está em [`report/relatorio.pdf`](report/relatorio.pdf).
+O relatório completo, com a análise detalhada de cada etapa, está em [`Relatorio_Final.pdf`](Relatorio_Final.pdf).
 
 ## Estrutura do repositório
 
 ```
 .
-├── notebooks/
-│   └── concreto_mlp.ipynb      # Pipeline completo, do carregamento dos dados à otimização
-├── report/
-│   └── relatorio.pdf            # Relatório final em formato SBC
+├── main.ipynb # Pipeline completo, do carregamento dos dados à otimização   
+├── Relatorio_final.pdf # Relatório final em formato SBC       
 ├── requirements.txt
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 *(ajuste os nomes/caminhos acima para bater exatamente com o que está no seu repositório)*
@@ -64,7 +63,7 @@ source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Baixe o dataset [Concrete Compressive Strength](https://www.kaggle.com/datasets/vinayakshanawad/cement-manufacturing-concrete-dataset) e coloque em `data/concrete.csv`, depois abra `notebooks/concreto_mlp.ipynb`.
+Baixe o dataset [Concrete Compressive Strength](https://www.kaggle.com/datasets/vinayakshanawad/cement-manufacturing-concrete-dataset) e coloque em `concrete.csv`, depois abra `notebooks/main.ipynb`.
 
 **Dataset original**: Yeh, I-C. (2007). *Concrete Compressive Strength* [Dataset]. UCI Machine Learning Repository. [10.24432/C5PK67](https://doi.org/10.24432/C5PK67)
 
