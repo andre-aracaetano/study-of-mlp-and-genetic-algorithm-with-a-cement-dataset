@@ -63,7 +63,7 @@ source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Baixe o dataset [Concrete Compressive Strength](https://www.kaggle.com/datasets/vinayakshanawad/cement-manufacturing-concrete-dataset) e coloque em `concrete.csv`, depois abra `notebooks/main.ipynb`.
+Baixe o dataset [Concrete Compressive Strength](https://www.kaggle.com/datasets/vinayakshanawad/cement-manufacturing-concrete-dataset) e coloque em `concrete.csv`, depois abra `main.ipynb`.
 
 **Dataset original**: Yeh, I-C. (2007). *Concrete Compressive Strength* [Dataset]. UCI Machine Learning Repository. [10.24432/C5PK67](https://doi.org/10.24432/C5PK67)
 
