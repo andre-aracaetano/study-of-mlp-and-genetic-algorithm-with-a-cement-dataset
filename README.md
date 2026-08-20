@@ -43,8 +43,6 @@ O relatório completo, com a análise detalhada de cada etapa, está em [`Relato
 └── LICENSE
 ```
 
-*(ajuste os nomes/caminhos acima para bater exatamente com o que está no seu repositório)*
-
 ## Pipeline
 
 1. **Dados**: carregamento, EDA (distribuição do alvo, correlações), split treino/teste (85/15), normalização ajustada só no treino.
